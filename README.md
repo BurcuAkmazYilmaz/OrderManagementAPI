@@ -1,6 +1,8 @@
 # OrderManagementAPI
 OrderManagementAPI siparişlerin oluşturulması, değiştirilmesi, silinmesi ve görüntülenmesi için metotlar ve ayrıca müşteri ekleme ve ürün listeleme ve ürün eklene gibi metotlar içerir.
 
+Proje kaynak kodları ***OrderManagementAPI.rar*** dosyasında yer almaktadır.
+
 ## Genel Yapı
 
 ASP.NET Core Web API tipinde proje açılarak .NET 6 ile geliştirilmiştir. Log yapısı için **Microsoft.Extensions.Logging.Log4Net.AspNetCore** kullanılmıştır. Data katmanında *Repository* ve *UnitOfWork* pattern'leri kullanılmıştır.
