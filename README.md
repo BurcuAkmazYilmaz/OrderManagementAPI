@@ -1,9 +1,10 @@
 # OrderManagementAPI
 OrderManagementAPI siparişlerin oluşturulması, değiştirilmesi, silinmesi ve görüntülenmesi için metotlar ve ayrıca müşteri  ve ürün eklenmesi gibi metotlar içerir.
 
-<br/>
 
-İlgili API kapsamında Customer, Product ve OrderProduct tabloları oluşturulmuştur. 
+## Veritabanı ve Tablo Bilgileri
+
+İlgili API kapsamında SQLServer'da OnlineRetailCompany isimli veritabanı ve Customer, Product ve OrderProduct tabloları oluşturulmuştur. 
 
 Tablolar için eklenen diyagram için ***Diyagram.png*** görseli eklenmiştir.
 Oluşturulan OnlineRetailCompany isimli veritabanı için ***OnlineRetailCompany.bak*** dosyası eklenmiştir.
@@ -39,6 +40,8 @@ CustomerOrder tablosuna ait alanlar ve açıklamaları aşağıda verilmiştir.
 
 <br/>
 
+## API Swagger
+
 OrderManagementAPI projesi için swagger arayüzü ekran görüntüsü ***OrderManagementAPI_swagger.png*** görseli ile verilmiştir. Schemas altında request için kullanılacak modeller ve ilgili metotların response modelleri yer almaktadır. Ayrıca bu proje kapsamında sadece siparişler ile ilgileniceğinden Customer ve Product için eklenen metotlar açıklanmamıştır. Bu metotlar sipariş için debug yapılabilmesi için eklenmiştir.
 
 ### CustomerOrder/GetCustomerOrderByOrderID metodu
@@ -51,11 +54,11 @@ Müşteri numarasına göre sipariş listesini verir. Sipariş listesi için kul
 
 ### CustomerOrder/CreateCustomerOrder metodu
 Sipariş kaydetmek için kullanılır. Sipariş eklemek için kullanılacak request modeli ***OrderCreateModel*** olarak verilmiştir.
-Yeni sipariş eklemek için örnek request ***CreateCustomerOrderRequest.png*** görselinde verilmiştir.
+Yeni sipariş eklemek için örnek request ***CreateCustomerOrderRequest.json*** dosyasında verilmiştir. Ayrıca ilgili request görseli ***CreateCustomerOrderRequest.png*** görselinde verilmiştir.
 
 ### CustomerOrder/UpdateCustomerOrder metodu
 Sipariş güncellemek için kullanılır. Sipariş güncelleme işleminde sipariş adresi değiştirilebilir; mevcut ürünün miktarı değiştirilebilir; mevcut ürün silinebilir veya yeni ürün eklenebilir. Sipariş güncellemek için kullanılacak request modeli ***OrderUpdateModel*** olarak verilmiştir.
-Sipariş güncellemek için örnek request ***UpdateCustomerOrderRequest.png*** görselinde verilmiştir.
+Sipariş güncellemek için örnek request ***UpdateCustomerOrderRequest.json*** dosyasında verilmiştir. Ayrıca ilgili request görseli ***UpdateCustomerOrderRequest.png*** görselinde verilmiştir.
 
 ### CustomerOrder/DeleteCustomerOrder metodu
 Sipariş silmek için kullanılır. Unique sipariş numarası ile sipariş silinir.
