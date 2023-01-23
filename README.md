@@ -77,5 +77,5 @@ ElasticSearch'ten ürün listesi getirir.
 Anahtar kelimeye göre ElasticSearch'ten arama yaparak ürün listesi getirir.
 
 ### Product/CreateProduct
-Yeni ürün kaydetme işlemi yapar. Ürün bilgisi veritabanına ve ElasticSearch'e atalır.
+Yeni ürün kaydetme işlemi yapar. Ürün bilgisi veritabanına ve ElasticSearch'e atılır.
 
