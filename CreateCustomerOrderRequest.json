@@ -1,0 +1,12 @@
+{
+  "customer": {
+    "id": "A46440CF-C6BD-4778-B3FC-EF1050202C9C",
+    "address": "Kadıköy/İstanbul"
+  },
+  "listProduct": [
+    {
+      "id": "ABE35773-90CC-4ADE-9CB5-FB9675FE0925",
+      "quantity": 10
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "orderId": "031DB0FE-61A3-4815-9F42-5AE4B36FD321",
+  "customer": {
+    "id": "A46440CF-C6BD-4778-B3FC-EF1050202C9C",
+    "address": "Moda/İstanbul"
+  },
+  "listProduct": [
+    {
+      "id": "ABE35773-90CC-4ADE-9CB5-FB9675FE0925",
+      "quantity": 7
+    }
+  ]
+}
